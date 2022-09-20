@@ -28,7 +28,7 @@ fun main() {
     println(newResult)
 
     // Function that returns no meaningful value
-    fun printSum(a: Int, b: Int): Unit {
+    fun printSum(a: Int, b: Int) {
     	println("sum of $a and $b is ${a + b}")	
     }
 
