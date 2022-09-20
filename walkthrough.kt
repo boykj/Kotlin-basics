@@ -35,5 +35,15 @@ fun main() {
     println(str[0..14])
     
     // ******* End of Operator Functions ******
+
+    // *********** Varargs ********************
+
+    fun printAll(vararg messages: String) {
+    	for (m in messages) println(m)
+    }
+
+    printAll("Hello", "Hallo", "Salut", "Hola")
+
+    // ********* End of Varargs ***************
 }
 
