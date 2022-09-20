@@ -26,4 +26,12 @@ fun main() {
 
     val newResult = newSum(5, 4)
     println(newResult)
+
+    // Function that returns no meaningful value
+    fun printSum(a: Int, b: Int): Unit {
+    	println("sum of $a and $b is ${a + b}")	
+    }
+
+    val newResult_2 = printSum(10, 11)
+    
 }
