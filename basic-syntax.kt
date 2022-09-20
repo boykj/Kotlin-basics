@@ -17,7 +17,13 @@ fun main() {
     	return a + b
     }
 
+    // Function call and print
     val result = sum(1, 2)
     println(result)
 
+    // Function body can be an expression - Return type inferred
+    fun newSum(a: Int, b: Int) = a + b
+
+    val newResult = newSum(5, 4)
+    println(newResult)
 }
