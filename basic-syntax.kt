@@ -27,7 +27,10 @@ fun main() {
     val newResult = newSum(5, 4)
     println(newResult)
 
-    // Function that returns no meaningful value
+    // Function that returns no meaningful value - return type can be ommited
+
+    //fun printSum(a: Int, b: Int): Unit {
+    
     fun printSum(a: Int, b: Int) {
     	println("sum of $a and $b is ${a + b}")	
     }
