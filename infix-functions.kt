@@ -7,4 +7,8 @@ fun main() {
 
     val pair = "Ferrari" to "Katrina"
     println(pair)
+
+    infix fun String.onto(other: String) = Pair(this, other)
+    val myPair = "Yamaha" onto "Kawasaki"
+    println(myPair)
 }
