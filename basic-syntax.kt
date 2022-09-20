@@ -3,5 +3,10 @@ package my.demo
 import kotlin.text.*
 
 fun main() {
-    println("hello world")
+
+    // Print to stdout with a linebreak
+    println("hello")
+
+    // Print to stdout
+    print("world")
 }
