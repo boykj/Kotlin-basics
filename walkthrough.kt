@@ -9,5 +9,6 @@ fun printMessageWithPrefix(message: String, prefix: String = "info") {
 }
 
 fun main() {
-    println("Hello, world")
+    printMessage("Hello, world")
+    printMessageWithPrefix("Hello", "Log")
 }
