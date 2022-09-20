@@ -36,5 +36,14 @@ fun main() {
     }
 
     val newResult_2 = printSum(10, 11)
-    
+
+    // Class instantiation
+    class Rectangle(var height: Double, var length: Double) {
+    	  var perimeter = (height + length) * 2
+    }
+
+    // Class call and print
+    val rectangle = Rectangle(5.0, 2.0)
+    println("Perimeter is ${rectangle.perimeter}")
+
 }
