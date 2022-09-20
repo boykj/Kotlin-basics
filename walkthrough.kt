@@ -24,4 +24,12 @@ fun main() {
     printMessageWithPrefix(prefix = "Log", message = "Hello")
     println(sum(1, 2))
     println(multiply(2, 4))
+
+    // ********* Operator Functions ***********
+
+    operator fun Int.times(str: String) = str.repeat(this)
+    println(2 * "Bye ")
+
+    // ******* End of Operator Functions ******
 }
+
