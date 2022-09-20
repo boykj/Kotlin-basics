@@ -8,7 +8,14 @@ fun printMessageWithPrefix(message: String, prefix: String = "info") {
     println("[$prefix] $message")
 }
 
+fun sum(x: Int, y: Int): Int {
+    return x + y
+}
+
 fun main() {
     printMessage("Hello, world")
     printMessageWithPrefix("Hello", "Log")
+    printMessageWithPrefix("Hello")
+    printMessageWithPrefix(prefix = "Log", message = "Hello")
+    println(sum(1, 2))
 }
