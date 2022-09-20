@@ -1,9 +1,11 @@
 package org.kotlinlang.play
 
+// Accepts a string parameter, no return value (Unit)
 fun printMessage(message: String): Unit {
     println(message)    
 }
 
+// Can accept a prefix input but will default to "info" if not supplied
 fun printMessageWithPrefix(message: String, prefix: String = "info") {
     println("[$prefix] $message")
 }
@@ -12,6 +14,7 @@ fun sum(x: Int, y: Int): Int {
     return x + y
 }
 
+// Return type is inferred
 fun multiply(x: Int, y: Int) = x * y
 
 fun main() {
