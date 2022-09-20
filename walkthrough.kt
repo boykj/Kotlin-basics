@@ -53,6 +53,12 @@ fun main() {
 	prefix = "Greeting: "
     )
 
+    fun log(vararg entries: String) {
+    	printAll(*entries)
+    }
+
+    log("Lorem", "Ipsum")
+
     // ********* End of Varargs ***************
 }
 
