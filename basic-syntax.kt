@@ -12,7 +12,7 @@ fun main() {
 
     println()
 
-    /****************** Functions ***********************
+    // ****************** Functions ***********************
     // Basic function with two integer parameters, with a integer return
     fun sum(a: Int, b: Int): Int {
     	return a + b
@@ -38,7 +38,7 @@ fun main() {
 
     val newResult_2 = printSum(10, 11)
 
-    *****************************************************/
+    // ************** End of Functions *********************
 
     // Class definition
     class Rectangle(var height: Double, var length: Double) {
