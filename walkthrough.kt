@@ -44,6 +44,15 @@ fun main() {
 
     printAll("Hello", "Hallo", "Salut", "Hola")
 
+    fun printAllWithPrefix(vararg messages: String, prefix: String) {
+    	for (m in messages) println(prefix + m)
+    }
+
+    printAllWithPrefix(
+	"Hello", "Hallo", "Salut", "Hola",
+	prefix = "Greeting: "
+    )
+
     // ********* End of Varargs ***************
 }
 
