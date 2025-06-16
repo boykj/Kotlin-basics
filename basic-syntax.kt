@@ -19,12 +19,23 @@ fun main() {
     }
 
     // Function call and print
+    // Value type is inferrred
     val result = sum(1, 2)
     println(result)
+
+    var nextResult = sum(1, 2)
+    println("Var result: " + nextResult)
+
+    nextResult = sum(nextResult , nextResult)
+    println("Var result: " + nextResult)
+
+    nextResult += 1
+    println("Var result: "+ nextResult)
 
     // Function body can be an expression - Return type inferred
     fun newSum(a: Int, b: Int) = a + b
 
+    // Using the val keyword creates an immutable variable
     val newResult = newSum(5, 4)
     println(newResult)
 
