@@ -7,4 +7,3 @@ Compiling:
 
 Running:
 * java -jar <OUTPUT_FILE_NAME.jar>
-

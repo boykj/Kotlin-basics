@@ -36,7 +36,7 @@ fun main() {
     
     // ******* End of Operator Functions ******
 
-    // *********** Varargs ********************
+    // *********** Var Args ********************
 
     fun printAll(vararg messages: String) {
     	for (m in messages) println(m)
